@@ -7,7 +7,7 @@ import (
 
 var (
 	mapService = map[string]func(net.Conn){
-		"ping\n": services.Ping,
-		// "push_conf": services.PushConf,
+		"ping\n":      services.Ping,
+		"disk_info\n": services.Disk_Info,
 	}
 )

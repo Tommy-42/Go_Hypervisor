@@ -4,7 +4,7 @@ import (
 	"net"
 )
 
-func Ping(conn net.Conn) {
-	res := []byte("pong\n")
+func Disk_Info(conn net.Conn) {
+	res := []byte("disk\n")
 	_, _ = conn.Write(res)
 }
