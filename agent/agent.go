@@ -8,7 +8,7 @@ import (
 )
 
 const (
-	CONN_HOST = "localhost"
+	CONN_HOST = ""
 	CONN_PORT = "4242"
 	CONN_TYPE = "tcp"
 )
