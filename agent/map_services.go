@@ -1,7 +1,7 @@
 package main
 
 import (
-	"gohypervisor/agent/services"
+	"gosupervisor/agent/services"
 	"net"
 )
 
